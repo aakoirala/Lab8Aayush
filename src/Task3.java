@@ -9,7 +9,7 @@ public class Task3 {
         int birthHour;
         int birthMinute;
 
-        if (birthMonth == 4 || birthMonth == 6 || birthMonth == 9 || birthMonth == 1) {
+        if (birthMonth == 4 || birthMonth == 6 || birthMonth == 9 || birthMonth == 11) {
             birthDay = InputHelper.getRangedInt(scan, "Enter in your birth day :", 1, 30);
         } else if (birthMonth == 1 || birthMonth == 3 || birthMonth == 5 || birthMonth == 7 || birthMonth == 8 || birthMonth == 10 || birthMonth == 12) {
             birthDay = InputHelper.getRangedInt(scan, "Enter in your birth day :", 1, 31);
@@ -27,4 +27,3 @@ public class Task3 {
         System.out.println("Minute: " + birthMinute);
     }
 }
-

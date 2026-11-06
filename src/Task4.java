@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class task4 {
+public class Task4 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -16,8 +16,7 @@ public class task4 {
 
             continueYN = InputHelper.getYNConfirm(scan, "Do you want to add another item [Y/N]");
 
-
         } while (continueYN);
-        System.out.println("Total Cost in $: " + totalPrice);
+        System.out.printf("Total Cost in $: %.2f\n ", totalPrice);
     }
 }
